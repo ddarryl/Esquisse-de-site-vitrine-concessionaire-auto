@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Concessionnaire Auto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/vendors/bootstarp/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/vendors/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-v2XMg3k+4rQ6D5nxyvNX02HRdzWWsjPq7mZsS/lvJQ46Jb19vg1y5rOnj0AhUqFrJwz5o+jM7h1EJ+sPg5G1kA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        body {
+            color: #fff;
+            background-color: #5c636a;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        main {
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Set height to full viewport height for vertical centering */
+        }
+
+        h1 {
+            padding: 30px;
+            margin-bottom: 20px; /* Reduced margin */
+            color: #ff9800;
+            font-size: 2.5em;
+        }
+
+        form {
+            max-width: 600px; /* Adjust based on your design */
+            margin: auto; /* Center the form */
+        }
+
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #ff9800;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #f57c00;
+        }
+    </style>
+</head>
+
+<body>
+
+<main class="container">
+    <section>
+        <h1><strong>Contactez-nous</strong></h1>
+        <form action="#" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="address">Adresse :</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="map">Plan :</label>
+            <input type="text" id="map" name="map" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+</main>
+
+<script src="assets/vendors/jquery/jquery-3.3.1.min.js"></script>
+<script src="assets/vendors/bootstarp/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
